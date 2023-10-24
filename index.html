@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/file.css" />
+  </head>
+
+  <div class="all-content">
+    <div>
+      <h1>
+        Welcome to the Interactive ABCs of CSS Technology learning Website
+      </h1>
+    </div>
+    <div>
+      <h2>
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </h2>
+    </div>
+
+    <div class="all-container">
+      <div id="A" class="image-container">
+        <img src="media/images/css-letter-a.png" width="200" height="200" />
+        <br />
+        <button onclick="hideImage('A')">Hide Image A</button>
+      </div>
+
+      <div id="B" class="image-container">
+        <img src="media/images/css-letter-b.png" width="200" height="200" />
+        <br />
+        <button onclick="hideImage('B')">Hide Image B</button>
+      </div>
+
+      <div id="C" class="image-container">
+        <img src="media/images/css-letter-c.png" width="200" height="200" />
+        <br />
+        <button onclick="hideImage('C')">Hide Image C</button>
+      </div>
+    </div>
+    <div class="button-container">
+      <div class="letter-buttons">
+        <button class="letter" onclick="showImage('A')">A</button>
+      </div>
+
+      <div class="letter-buttons">
+        <button class="letter" onclick="showImage('B')">B</button>
+      </div>
+      <div class="letter-buttons">
+        <button class="letter" onclick="showImage('C')">C</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/file.js"></script>
+</html>
